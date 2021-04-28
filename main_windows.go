@@ -21,7 +21,7 @@ import (
 
 var globalGraphics graphics
 
-func main() {
+func mainA() {
 	defer handlePanics()
 	runtime.LockOSThread()
 	hideConsoleWindow()
